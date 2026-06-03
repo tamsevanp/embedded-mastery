@@ -1,0 +1,24 @@
+# Executables
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Embedded build outputs
+*.elf
+*.axf
+*.bin
+*.hex
+*.map
+
+# Libraries
+*.a
+*.lib
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
