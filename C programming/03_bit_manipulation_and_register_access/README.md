@@ -4,8 +4,6 @@
 
 Bit manipulation is the process of operating directly on individual bits of a number using bitwise operators. It is widely used in Embedded Systems, Device Drivers, Communication Protocols, and Microcontroller Programming for efficient memory and hardware register access.
 
----
-
 ## Bitwise Operators
 
 | Operator    | Symbol  | Description                    |
@@ -27,8 +25,6 @@ a & b;  // 00000001
 a | b;  // 00000111
 a ^ b;  // 00000110
 ```
-
----
 
 ## Bit Manipulation Macros
 
@@ -58,8 +54,6 @@ After:
 00100000
 ```
 
----
-
 ### Clear a Bit
 
 ```c
@@ -85,8 +79,6 @@ After:
 ```
 00000000
 ```
-
----
 
 ### Toggle a Bit
 
@@ -114,8 +106,6 @@ After:
 00000000
 ```
 
----
-
 ### Check a Bit
 
 ```c
@@ -132,8 +122,6 @@ Example:
 ```c
 CHECK_BIT(reg, 5);
 ```
-
----
 
 ## Count Set Bits
 
@@ -172,8 +160,6 @@ Output:
 3
 ```
 
----
-
 ## Reverse Byte
 
 Reverses all 8 bits in a byte.
@@ -206,8 +192,6 @@ Becomes:
 10110000
 ```
 
----
-
 ## Highest Set Bit
 
 Returns the position of the most significant set bit.
@@ -239,8 +223,6 @@ Highest set bit position:
 5
 ```
 
----
-
 ## GPIO Register Simulation
 
 In Embedded Systems, peripherals are controlled through memory-mapped registers.
@@ -263,8 +245,6 @@ Register:
 00000000 00000000 00000000 00100000
 ```
 
----
-
 ### Clear PA5
 
 ```c
@@ -277,8 +257,6 @@ Register:
 00000000 00000000 00000000 00000000
 ```
 
----
-
 ### Toggle PA5
 
 ```c
@@ -290,8 +268,6 @@ Register:
 ```
 00000000 00000000 00000000 00100000
 ```
-
----
 
 ### Check PA5
 
@@ -307,7 +283,6 @@ Returns:
 
 if PA5 is HIGH.
 
----
 
 ## Real Embedded Register Access
 
@@ -343,8 +318,6 @@ if(CHECK_BIT(GPIOA_ODR, 5))
     // Pin is HIGH
 }
 ```
-
----
 
 ## Key Takeaways
 
