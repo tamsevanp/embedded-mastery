@@ -13,5 +13,7 @@ int main()
     uint8_t value = SET_BIT(num,2);
     printf("Number given: %d \n",value);
 
+    
+
     return 0;
 }
