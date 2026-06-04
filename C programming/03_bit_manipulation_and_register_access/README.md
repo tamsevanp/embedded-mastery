@@ -1,4 +1,4 @@
-# Day 03 - Bit Manipulation in C
+#  Bit Manipulation in C
 
 ## Overview
 
