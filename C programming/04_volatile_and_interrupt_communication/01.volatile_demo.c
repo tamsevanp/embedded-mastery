@@ -1,11 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
+
+volatile int flag = 0;
 
 int main()
 {
-    volatile int a=20;
-    int *ptr=(int*)&a;
-    printf("The int is a=%d\n",*ptr);
-    *ptr=25;
-    printf("after the changes a=%d",*ptr);
+    printf("Waiting for flag to become 1...\n");
+
+    while(flag == 1)
+    {
+        // wait
+    }
+
+    printf("Flag changed!\n");
+
     return 0;
 }
