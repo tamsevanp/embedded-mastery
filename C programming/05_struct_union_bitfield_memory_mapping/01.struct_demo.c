@@ -7,8 +7,7 @@ struct{
 
 int main()
 {
-    bio tamil;
-    tamil.age=25;
-    
+    int a;
+    return 0;
 }
 
